@@ -100,3 +100,104 @@
 #resource-img-container img :nth-child(4) {
     margin-right: 0;
 }
+.resource-top-filter{
+    margin-top: 30px;
+}
+.research-filter-title{
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 200px;
+    width: 50%;
+    float: left;
+}
+.researchfilter-input{
+    border:1px solid #616055;
+    border-radius: 10px;
+    background: #fff;
+    width: 70%;
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+}
+#research-img-container{
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 40px;
+    position: relative;
+}
+#research-img-container img{
+    width: 100%;
+    float: left;
+    margin-right: 0;
+    display: block;
+}
+#research-img-container img:hover::after {
+    content: "";
+    position: absolute;
+    inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
+    background: rgba(0,0,0,0.5) url(../assets/images/publications/research-download.svg) no-repeat center;
+    background-size: 40px;
+}
+#research-img-container img :nth-child(4) {
+    margin-right: 0;
+}
+#research-img-container .col-md-4{
+    width: 30%;
+    float:left;
+    margin-right: 4%;
+    margin-top: 30px;
+}
+#research-img-container .col-md-4:nth-child(3), #research-img-container .col-md-4:nth-child(6){
+    margin-right: 0;
+}
+.research-img-title{
+    font-size: 25px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+    padding: 20px 0 10px;
+    float: left;
+    width: 100%;
+}
+.research-update-time{
+    font-size: 15px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: #616055;
+    float: left;
+    width: 100%;
+}
+#research-img-container .research-update-time img{
+    width: 5%;
+    margin-right: 10px;
+}
+.research-author-div{
+    font-size: 13px;
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #616055;
+    float: left;
+    width: 100%;
+}
+#research-img-container .research-author-div img{
+    width: 5%;
+    margin-right: 10px;
+}
