@@ -145,12 +145,21 @@
     margin-right: 0;
     display: block;
 }
-#research-img-container img:hover::after {
-    content: "";
-    position: absolute;
-    inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
-    background: rgba(0,0,0,0.5) url(../assets/images/publications/research-download.svg) no-repeat center;
-    background-size: 40px;
+.research-img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 30%;
+  height: 36%;
+  background: rgba(0,0,0,0.4); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.research-img-wrapper:hover::after {
+  opacity: 1;
 }
 #research-img-container img :nth-child(4) {
     margin-right: 0;
