@@ -136,10 +136,39 @@
                 <a href="javascript:;" class="login-btn" onClick="">Login</a>
             </div>
             <div class="frmPad">
-                <span class="account-note-txt">Don't have an account? <a href="javascript:;" class="register-link-style" title="">Register</a></span>                
+                <span class="account-note-txt">Don't have an account? <a href="javascript:;" onclick="openPopup('registerPopup')" class="register-link-style" title="">Register</a></span>                
             </div>
         </div>
         <a href="javascript:;" class="md-close" onClick="closePopup('loginPopup')"><img src="assets/images/login/close.svg" alt=""></a>
+    </div>
+</div>
+<div class="md-modal md-effect-1" id="registerPopup">
+    <div class="md-content">
+        <div class="popupHeading">Register</div>
+        <div class="popTxt">
+            <div class="successMsg">
+                <div class="alert alert-success alert-dismissible" role="alert"></div>
+            </div>
+            <div class="errorMsg">
+                <div class="alert alert-danger alert-dismissible" role="alert"></div>
+            </div>
+            <div class="frmPad">
+                <input type="text" name="uname" id="uname" class="frmTxtbox" placeholder="Username">
+            </div>
+            <div class="frmPad">
+                <input type="password" name="loginPass" id="loginPass" class="frmTxtbox" placeholder="Password">                
+            </div>
+            <div class="frmPad">
+                <a href="javascript:;" class="forget-password-link">Forgot Password ?</a>                
+            </div>
+            <div class="form-btn-group">
+                <a href="javascript:;" class="login-btn" onClick="">Login</a>
+            </div>
+            <div class="frmPad">
+                <span class="account-note-txt">Have an account? <a href="javascript:;" onclick="openPopup('loginPopup')" class="register-link-style" title="">Login</a></span>                
+            </div>
+        </div>
+        <a href="javascript:;" class="md-close" onClick="closePopup('registerPopup')"><img src="assets/images/login/close.svg" alt=""></a>
     </div>
 </div>
 <div class="md-overlay"></div>
