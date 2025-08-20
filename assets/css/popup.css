@@ -88,3 +88,6 @@
 	line-height:23px;
 	position: relative;
 }
+.successMsg, .errorMsg{
+    display: none;
+}
