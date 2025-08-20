@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <filter id="Rectangle_1213" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1228" data-name="Group 1228" transform="translate(-1177 -252)">
+    <g transform="matrix(1, 0, 0, 1, 1177, 252)" filter="url(#Rectangle_1213)">
+      <rect id="Rectangle_1213-2" data-name="Rectangle 1213" width="52" height="52" rx="10" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Layer_2_00000019666308414107203810000016359489542308255153_" transform="translate(1201 273.1)">
+      <g id="croos" transform="translate(0 -0.1)">
+        <path id="Path_1121" data-name="Path 1121" d="M13.988,10.9l7.389-7.389a2.114,2.114,0,0,0-2.981-3l0,0L11,7.908,3.609.523a2.114,2.114,0,0,0-2.99,2.99L8.008,10.9.619,18.291a2.114,2.114,0,0,0,2.99,2.99L11,13.892l7.389,7.389a2.114,2.114,0,1,0,2.99-2.99Z" transform="translate(0 0.1)"/>
+      </g>
+    </g>
+  </g>
+</svg>
