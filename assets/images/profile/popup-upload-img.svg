@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="161" viewBox="0 0 224 161">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2af29"/>
+      <stop offset="1" stop-color="#feed0a" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-my_profile_upload">
+      <rect width="224" height="161"/>
+    </clipPath>
+  </defs>
+  <g id="my_profile_upload" clip-path="url(#clip-my_profile_upload)">
+    <g id="Group_1573" data-name="Group 1573" transform="translate(-0.332)">
+      <path id="Path_1158" data-name="Path 1158" d="M181.484,97.247A62.71,62.71,0,0,0,62,76.846a31.011,31.011,0,0,0-9.476-1.611A31.523,31.523,0,0,0,21.01,106.751a31.08,31.08,0,0,0,1.723,9.833,45.378,45.378,0,0,0,22.79,84.7v.014H171.581v-.014a52.488,52.488,0,0,0,9.9-104.039Zm-42.96,40.32H126.057v28.1a7,7,0,0,1-7,7.018H105.047a7.014,7.014,0,0,1-7-7.018v-28.1H85.57c-7.606,0-10.708-5.078-6.913-11.269l26.481-26.1c5.19-5.183,8.474-5.357,13.825,0l26.481,26.1C149.254,132.5,146.13,137.567,138.524,137.567Z" transform="translate(0 -40.217)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
