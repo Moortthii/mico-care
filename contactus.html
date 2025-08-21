@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 <!-- Your custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/profile.css">
+  <link rel="stylesheet" href="assets/css/contactus.css">
   <link rel="stylesheet" href="assets/css/popup.css">
 </head>
 <body>
@@ -99,42 +99,28 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div id="profile-container">
-                    <div class="profile-image-div">
-                        <img src="assets/images/profile/profile_Image.png" class="profile-img" alt="">
-                        <a href="javascript:;" class="upload-link" onclick="openPopup('uploadProfile')">
-                          <img src="assets/images/profile/profile_upload.png" class="upload-img" alt="">
-                        </a>
-                        <a href="javascript:;" class="change-password-btn">Change Password</a>
-                    </div>
-                    <div class="profie-name">
-                        Monica Liz  
-                    </div>
-                    <div class="profile-details-div">
-                        <div class="col-md-5">
-                            <label>First name</label>
-                            <div class="profile-desc">Monica</div>
+                <div id="contact-container">
+                    <div class="contactus-title">Contact us</div>
+                    <div class="comments-title-txt">Leave your comments</div>
+                    <div class="contact-frm">
+                        <div class="contactfrm-row">
+                            <div class="frm-left">
+                                <input type="text" name="" class="contactfrmTxtbox" placeholder="Name" >
+                            </div>
+                            <div class="frm-left">
+                                <input type="text" name="" class="contactfrmTxtbox" placeholder="Email" >
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <label>Last name</label>
-                            <div class="profile-desc">Liz</div>
+                        <div class="contactfrm-row">
+                            <input type="text" name="" class="subjectfrmTxtbox" placeholder="Subject" >    
                         </div>
-                        <div class="col-md-3">
-                            <label>Phone number</label>
-                            <div class="profile-desc">(876) 512-3846</div>
+                        <div class="contactfrm-row">
+                            <textarea name="" class="commentsTxtarea" id="commentMsg" placeholder="Your message goes here"></textarea>
                         </div>
-                        <div class="col-md-5">
-                            <label>Email address</label>
-                            <div class="profile-desc">monicaliz@gmail.com</div>
+                        <div class="contactfrm-row">
+                            <a href="javascript:;" title="" class="contact-submit-btn">Send</a>
                         </div>
-                        <div class="col-md-4">
-                            <label>User name</label>
-                            <div class="profile-desc">monica04</div>
-                        </div>
-                        <div class="edit-profile-div">
-                            <a href="javascript:;" class="edit-profile-btn">Edit Profile</a>
-                        </div>
-                        <div class="clear-fix"></div>
+                    <div class="clear-fix"></div>
                     </div>
                 </div>
             </div>
