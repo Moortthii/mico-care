@@ -74,6 +74,7 @@ ul.student-achievement-list li::marker {
 
    ul.mdrt-registration-list li{
     margin-bottom: 15px;
+    font-size: 25px;
    } 
 ul.mdrt-registration-list li::marker {
       color: gold;   /* change to any color */
