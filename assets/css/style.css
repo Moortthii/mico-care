@@ -151,7 +151,7 @@ body {
 }
 
 div#navbarScroll {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -191,7 +191,7 @@ div#navbarScroll {
     font-weight: 700;
     width: 120px;
     height: 50px;
-    margin-top: -20px;
+    margin-top: -0px;
 }
 
 .header .login-selected {
@@ -201,7 +201,7 @@ div#navbarScroll {
     font-weight: 700;
     width: 100%;
     height: 65px;
-    margin-top: -20px;
+    margin-top: -0px;
     padding: 5px 5px;
 }
 
