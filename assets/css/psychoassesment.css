@@ -1,10 +1,19 @@
-.assesment-heading{
+.assesment-heading h4{
     max-width: 25rem!important;
-    font-size: 1.5rem!important;
+    font-size: 1.6rem!important;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }
+
 .font-bold{
     font-weight: 700;
     font-size: 3rem;
+}
+.assesment-description h2{
+    color: #000000;
+    opacity: 1;
+    letter-spacing: 0px;
 }
 .assesment-description p{
     letter-spacing: 0px;
@@ -12,7 +21,7 @@
     opacity: 1;
 }
 .list-content{
-    /* padding-left: 6rem; */
+    padding-left: 6rem;
 }
 
 .list-content li{
@@ -62,21 +71,34 @@
         opacity: 1;
     }
 
-    .assesment-finding{
+    /* .assesment-finding{
         letter-spacing: 0px;
         color: #FFFFFF;
         opacity: 1;
         font-size: 2.5rem;
         font-weight: 600;
-    }
+    } */
 
     .card-box p{
         letter-spacing: 0px;
-        color: #000000;
+        color: #000000!important;
         opacity: 1;
         font-weight: 600;
+    }
+    .assesment-text p:nth-child(1) {
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-size: 1.5rem;
+        font-weight: bold;
+
     }
     .assesment-text p:nth-child(3) {
         /* color: red; */
         font-weight: bold;
+    }
+
+    ul.list-content li::marker {
+      color: gold;   /* change to any color */
+      font-size: 1.5rem; /* optional - make bigger */
     }
