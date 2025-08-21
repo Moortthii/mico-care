@@ -1,4 +1,40 @@
-.sl-assesment-description{
+.banner-language-assesment {
+    width: 100%;
+    margin-top: -160px;
+        position: relative;
+         z-index: -1;
+}
+
+.banner-language-assesment::before  {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  background: #FEEE0E;
+background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 10, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.language-assesment h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 510px;
+    margin: auto;
+
+}
+
+.sl-sl-assesment-description{
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -12,7 +48,7 @@
     font-weight: 700;
     font-size: 3rem;
 }
-.assesment-description p{
+.sl-assesment-description p{
     letter-spacing: 0px;
     color: #616055;
     opacity: 1;
@@ -99,8 +135,11 @@
         letter-spacing: 0px;
         color: #000000;
         opacity: 1;
-        font-weight: 600;
+          font-size: 1.5rem;
+        font-weight: 700;
     }
+
+ 
     .assesment-text p:nth-child(3) {
         /* color: red; */
         font-weight: bold;
@@ -119,3 +158,104 @@
     .assesment-downloads li img {
            width: 1.2%;
     }
+
+.language-assesment {
+    padding: 0px 20px;
+}
+
+.assesment-description h2 {
+    font-size: 60px;
+    text-align: left;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin: 30px auto;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.assesment-text-yellow-container h6 {
+    font-size: 30px;
+    text-align: left;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    margin: 30px auto;
+    color: #fff;
+}
+    
+.assesment-text-yellow-container ul li {
+    font-size: 25px; 
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.assesment-text .apply-btn {
+    background-color: #F2AF29;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 90%;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+}
+ 
+.sl-assesment-description p{
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 10px;
+       font-weight: normal;
+      font-family: "PT Sans", sans-serif;
+      color: #616055;
+}
+
+
+.sl-assesment-description ul li {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #616055;
+}
+
+.sl-assesment-description ul li::marker {
+    color: #F2AF29;              /* bullet color */
+    font-size: 25px;         /* bullet size */
+  } 
+
+
+  .assesment-description ul li {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #616055;
+}
+
+.assesment-description ul li::marker {
+    color: #F2AF29;              /* bullet color */
+    
+}
+
+    .header .navbar-nav .active {
+    font-weight: 700; 
+     position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    top: 0px;
+}
+
+         #Psychoeducational ul, #Psychoeducational ul li {
+            list-style:none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+    #Psychoeducational ul li span{
+    font-size: 1.5rem;
+    color: #616055;
+    margin-bottom: 1rem;
+    opacity: 1;
+    border-bottom: solid 4px #F2AF29;
+    width: fit-content;
+    list-style: none;
+}

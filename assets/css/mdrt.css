@@ -93,7 +93,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 
 .mdrt ul li::marker {
     color: #F2AF29;              /* bullet color */
-    font-size: 20px;         /* bullet size */
+    font-size: 25px;         /* bullet size */
   } 
 
 
@@ -112,7 +112,7 @@ ul.student-achievement-list li::marker {
 
    ul.mdrt-registration-list li{
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 1.5rem; /* optional - make bigger */
    } 
 ul.mdrt-registration-list li::marker {
       color: gold;   /* change to any color */

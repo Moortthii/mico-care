@@ -77,5 +77,5 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 
 .clientele ol ul li::marker {
     color: #F2AF29;              /* bullet color */
-    font-size: 20px;         /* bullet size */
+    font-size: 25px;         /* bullet size */
   } 
