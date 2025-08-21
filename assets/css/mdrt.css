@@ -46,6 +46,14 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin: 30px auto;
 }
 
+.mdrt h5 {
+    font-size: 60px;
+    text-align: left;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
 .mdrt h4 {
     background: #F2AF29;
     background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
@@ -78,7 +86,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     font-size: 25px;
     line-height: 1.6;
     margin-bottom: 15px;
-    color: #616055;
+    color: #000;
 }
 
 .mdrt ul li::marker {
@@ -109,6 +117,33 @@ ul.mdrt-registration-list li::marker {
       font-size: 1.5rem; /* optional - make bigger */
     }
 
+    
+
+.mdrt .event-img {
+  position: relative;
+  display: inline-block;
+}
+
+.mdrt .event-img::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+ background: #FEEE0E;
+background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 41, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.mdrt .event-img img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+
     .event-card {
       position: relative;
       border-radius: 12px;
@@ -117,21 +152,27 @@ ul.mdrt-registration-list li::marker {
     }
     .status-badge {
       position: absolute;
-      top: 10px;
-      right: 0;
+      top: 0px;
+      right: 10px;
       padding: 5px 15px;
       font-weight: bold;
       color: #fff;
       border-bottom-left-radius: 8px;
     }
     .status-booked {
-      background-color: #d9534f; /* red */
+      background-color: rgba(255,0,0,0.69); /* red */
+      z-index: 999;
+      border-radius: 0 0 10px 10px;
     }
     .status-closed {
-      background-color: #6c757d; /* gray */
+      background-color:rgba(97,96,85,0.69); /* gray */
+      z-index: 999;
+      border-radius: 0 0 10px 10px;
     }
     .status-open {
-      background-color: #28a745; /* green */
+      background-color: rgba(13, 234, 20, 0.69); /* green */
+      z-index: 999;
+          border-radius: 0 0 10px 10px;
     }
     .event-img {
       width: 100%;
@@ -176,4 +217,74 @@ ul.mdrt-registration-list li::marker {
     display: inline-block;
     padding-bottom: 10px;
     top: 0px;
+}
+
+
+
+.event-content {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+
+.details p {
+  padding: 0;
+}
+.event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 20px;
+}
+
+.event-content .details .location p {
+    font-size: 20px;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.modal-content {
+ background: transparent;
+ border: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+button.btn {
+    outline: none !important;
+    border: none;
+}
+
+button.btn.close {
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 50px;
+}
+
+.modal {
+    --bs-modal-width:700px;
 }

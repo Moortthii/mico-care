@@ -153,41 +153,79 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 }
 #research-img-container img{
     width: 100%;
-    float: left;
-    margin-right: 0;
-    display: block;
+        border-radius: 10px;
+}
+
+.research-img-wrapper {
+    margin-bottom: 20px;
+         position: relative;
+}
+
+.research-img-wrapper img {
+       border-radius: 10px;
+
+        width: 100%;
+        height: auto;
 }
 .research-img-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 30px;
-  left: 0;
-  width: 30%;
-  height: 36%;
-  background: rgba(0,0,0,0.4); 
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 10px;
+    content: "";
+    position: absolute;
+    background: rgba(87, 87, 21, 0.70);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 450px;
+    height: 414px;
+    border-radius: 10px;
+    z-index: 999;
+    left: 0;
 }
 
 .research-img-wrapper:hover::after {
   opacity: 1;
 }
-#research-img-container img :nth-child(4) {
-    margin-right: 0;
+
+
+
+/* Icon */
+.research-img-wrapper .download-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 32px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+    width: 50px;
 }
-#research-img-container .col-md-4{
-    width: 30%;
-    float:left;
-    margin-right: 4%;
-    margin-top: 30px;
+
+/* Hover effect */
+.research-img-wrapper:hover::after,
+.research-img-wrapper:hover .download-icon {
+  opacity: 1;
 }
-#research-img-container .col-md-4:nth-child(3), #research-img-container .col-md-4:nth-child(6){
-    margin-right: 0;
+
+
+/* .research-img-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+
+ 
 }
+
+.research-img-wrapper:hover::after {
+  opacity: 1;
+} */
+ 
+ 
+ 
 .research-img-title{
     font-size: 25px;
-    font-family: "PT Serif", serif;
+ 
     font-weight: 700;
     line-height: 30px;
     color: #000;
@@ -198,7 +236,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 }
 .research-update-time{
     font-size: 15px;
-    font-family: "PT Serif", serif;
+ 
     font-weight: 700;
     line-height: 30px;
     color: #616055;
@@ -210,13 +248,13 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin-right: 10px;
 }
 .research-author-div{
-    font-size: 13px;
-    font-family: "PT Serif", serif;
+    font-size: 13px;    
     font-weight: 500;
     line-height: 30px;
     color: #616055;
     float: left;
     width: 100%;
+    margin-bottom: 20px;
 }
 #research-img-container .research-author-div img{
     width: 5%;
