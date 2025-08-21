@@ -76,7 +76,7 @@ background: linear-gradient(180deg, rgba(254, 243, 87, 1) 0%, rgba(255, 255, 255
 border-radius: 10px;
 border: none;
  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
- padding: 20px;
+ padding: 20px 20px 0px;
  position: relative;
  margin: 20px auto;
 }
@@ -88,10 +88,36 @@ border: none;
     right: 0px;
 }
 
-.careers .card img {
+.careers .card button img {
     width: 52px;
     height: 52px;
     position: absolute;
     right: 5px;
     bottom: 5px;
+}
+
+
+.modal-content {
+ background: transparent;
+ border: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+button.btn {
+    outline: none !important;
+    border: none;
+}
+
+button.btn.close {
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 50px;
+}
+
+.modal {
+    --bs-modal-width:700px;
 }
