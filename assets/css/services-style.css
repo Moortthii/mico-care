@@ -18,6 +18,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 
 .services {
  padding: 0px 20px;
+ margin: 0 auto;
 }
 
 .services h1 {
@@ -133,4 +134,10 @@ background: #010CA2;
     height: 4px;
     background-color: #fff; /* underline color */
     border-radius: 4px;
+}
+
+.service-offer {
+    margin: auto;
+    display: block;
+    text-align: center;
 }
