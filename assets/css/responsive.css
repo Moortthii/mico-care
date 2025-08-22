@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 1920px) and (max-height: 1080px) {
+ .header .navbar-nav .nav-link {
+    font-size: 1.4rem;
+    color: #000;
+    margin: 0px 25px;
+    padding: 0px;
+}
+
+div#navbarScroll {
+    margin-top: 15px;
+}
+
+ .header .login-selected {
+    background: #CECCB4;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 250px;
+    height: 65px;
+    margin-top: -15px;
+    padding: 5px 5px;
+    float: right;
+    position: relative;
+    right: -60px;
+}
+}
