@@ -1,3 +1,19 @@
+.banner-myassessments {
+    width: 100%;
+    margin-top: -160px;
+        position: relative;
+         z-index: -1;
+}
+
+.banner-myassessments::before  {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  background: #FEEE0E;
+background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 10, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
 #myassessments-container{
     position: relative;
     padding-bottom: 40px;
@@ -29,7 +45,7 @@
     border-radius: 10px;
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 20px;
     color: #fff;    
     padding:20px 30px;
     text-align: center;
@@ -42,8 +58,8 @@
 }
 #assessments-table tr th{
     background:#FDE005;
-    font-family: "PT Serif", serif;
-    font-size: 30px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
     line-height: 50px;
     font-weight: 700;
     text-align: left;
@@ -56,8 +72,8 @@
     border-radius: 0 8px 0 0;
 }
 #assessments-table tr td{
-    font-family: "PT Serif", serif;
-    font-size: 25px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
     font-weight: 500;
     text-align: left;
 }
