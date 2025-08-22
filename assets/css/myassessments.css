@@ -1,0 +1,66 @@
+#myassessments-container{
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#myassessments-container h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+    margin: 30px auto 0;
+}
+.w-90 {
+    width: 90% !important;
+}
+.new-assessment-btn{
+    background: #383838;
+    border-radius: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;    
+    padding:20px 30px;
+    text-align: center;
+    position: absolute;
+    right: 76px;
+    top: 80px;
+}
+#assessments-table{
+    margin-top: 80px;
+}
+#assessments-table tr th{
+    background:#FDE005;
+    font-family: "PT Serif", serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: left;
+    border:1px solid #fff;
+}
+#assessments-table tr th:first-child{
+    border-radius: 8px 0 0 0;
+}
+#assessments-table tr th:last-child{
+    border-radius: 0 8px 0 0;
+}
+#assessments-table tr td{
+    font-family: "PT Serif", serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+}
+.clear-fix{
+    clear: both;
+}

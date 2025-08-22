@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mico University College Child Assessment and Research in Education (CARE) Centre</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Your custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/myassessments.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
+</head>
+<body>
+  
+  <div class="header" id="mainHeader">
+        <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="assets/images/header/mcare-logo.png" alt="mcare logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center " id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">           
+          <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Services</a></li>
+            <li><a class="dropdown-item" href="#">Clientele</a></li>            
+            <li><a class="dropdown-item" href="#">Careers </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Assessments</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Field assessments</a></li>
+            <li><a class="dropdown-item" href="#">Psychoeducational Assessment</a></li>            
+            <li><a class="dropdown-item" href="#">Speech and Language Assessment</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Interventions</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MDRT-II
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Registration</a></li>
+            <li><a class="dropdown-item" href="#">Calendar of events</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Project and partnerships</a></li>
+                <li><a class="dropdown-item" href="#">Conference</a></li>
+                <li><a class="dropdown-item" href="#">Workshops</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publications</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Resource </a></li>
+                <li><a class="dropdown-item" href="#">Research</a></li>
+                <li><a class="dropdown-item" href="#">News release</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <div class="d-flex">        
+        <button class="btn login">Login</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  </div>
+  <div class="banner-aboutus">
+   <div class="container-fluid">
+     <div class="row">
+        <div class="col-md-12 ">      
+            <img src="assets/images/profile/profile_banner.png" alt="" class="mw-100">
+        </div>
+    </div>
+   </div>
+</div>
+<div class="publication-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="myassessments-container">
+                    <h4>My assessments</h4>  
+                    <button class="new-assessment-btn">Submit new assessment form</button>
+                    <div class="table-responsive d-flex justify-content-center">
+                        <table class="table table-bordered table-striped table-hover align-middle w-90" id="assessments-table">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Assessment Date</th>
+                                <th>Ref. No</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2025-08-20</td>
+                                <td>REF12345</td>
+                                <td>$250.00</td>
+                                <td>Completed</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2025-08-21</td>
+                                <td>REF67890</td>
+                                <td>$120.00</td>
+                                <td>Pending</td>
+                            </tr>                            
+                        </tbody>
+                        </table>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div class="footer-top">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Because We CARE!</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <p>At Mico CARE Centre, we provide quality education and real-world skills.
+                Our programs and experts support your growth at every step.</p>
+                <img src="assets/images/icons/footer/facebook.svg" alt=" "> <img src="assets/images/icons/footer/insta.svg" alt=" ">
+              </div>
+            <div class="col-md-3">
+                <h4>Contact Us</h4>
+                <p><img src="assets/images/icons/footer/location.svg" alt=" "> 5 Manhattan Road, Kingston, Jamaica</p>
+                <p><img src="assets/images/icons/footer/phone.svg" alt=" "> 876-929-7720-2</p>
+                <p><img src="assets/images/icons/footer/sms.svg" alt=" ">care_centre@micocare.org</p>
+            </div>
+            <div class="col-md-3">
+                 <h4>Quick links</h4>
+                <p>JCPD - Jamaica Council for Persons with Disabilities</p>
+                <p>JASA - Jamaica Autism Support Association</p>
+                <p>MOE - Ministry Of Education</p>
+                <p>CASE - Caribbean Autism Support for Education</p>
+            </div>
+            <div class="col-md-3">
+                  <h4>Newsletter</h4>
+            
+                <p>Join our newsletter for academic tips & campus updates.</p>
+                <form>
+                <div class="input-group custom-input">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <button type="submit"><img src="assets/images/icons/footer/mail.svg"></button>
+                </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <p>© Copyright 2025.Mico Care Centre |  Developed By <strong>Amber Innovations</strong></p>
+            </div>
+            <div class="col-md-6 text-end">
+                 <p><a href="#">Terms of Service</a>  | <a href="#">Privacy Policy</a>  | <a href="#">Cookie Policy</a></p>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Bootstrap JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom JS -->
+  <script src="assets/js/script.js"></script>
+  <script type="text/javascript">
+    function openPopup(popupId) {
+        $('#' + popupId).addClass('md-show');
+        $('.md-overlay').addClass('md-show');
+    }
+
+    function closePopup(popupId) {
+        $('#' + popupId).removeClass('md-show');
+        $('.md-overlay').removeClass('md-show');
+    }
+</script>
+</body>
+</html>
