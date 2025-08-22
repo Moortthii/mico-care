@@ -124,10 +124,108 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     clear: both;
 }
 
+.map {
+    position: relative;
+    margin: 30px auto;
+}
+
 .address-section {
     max-width: 700px;
     padding: 30px 30px;
+    background: #F2AF29;
+    border-radius: 20px;
+    color: #000;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 5%;
 }
+
+.address-section h5 {
+    font-size: 50px;
+    font-weight: 700;
+        font-family: "PT Serif", serif;
+        margin-bottom: 30px;
+}
+.address-section p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+
+.address-section p span {
+    font-weight: 700;
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.address-section-1 {
+    max-width: 700px;
+    padding: 30px 30px;
+    background: #F2AF29;
+    border-radius: 20px;
+    color: #000;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    right: 5%;
+}
+
+.address-section-1 h5 {
+    font-size: 50px;
+    font-weight: 700;
+        font-family: "PT Serif", serif;
+        margin-bottom: 30px;
+}
+.address-section-1 p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+
+.address-section-1 p span {
+    font-weight: 700;
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.address-section-2 {
+    max-width: 700px;
+    padding: 30px 30px;
+    background: #F2AF29;
+    border-radius: 20px;
+    color: #000;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 5%;
+}
+
+.address-section-2 h5 {
+    font-size: 50px;
+    font-weight: 700;
+        font-family: "PT Serif", serif;
+        margin-bottom: 30px;
+}
+.address-section-2 p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+
+.address-section-2 p span {
+    font-weight: 700;
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
 
 .header .navbar-nav .active {
     font-weight: 700; 
