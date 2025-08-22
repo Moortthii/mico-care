@@ -79,6 +79,13 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     top: 0px;
 }
 
+.assesment-text p {
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 400;
+}
 
 .field-assesment-content-bg p {
        font-size: 25px;
@@ -87,4 +94,22 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
        padding: 0px 10px;
        font-weight: normal;
          font-family: "PT Sans", sans-serif;
+}
+
+.assesment-text .card-box p {
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.apply-btn {
+    background-color: #F2AF29;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 90%;
+    height: 60px;
+    border: none;
+    font-size: 25px;
 }
