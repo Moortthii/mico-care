@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="55" viewBox="0 0 147 55">
+  <g id="Group_1908" data-name="Group 1908" transform="translate(-22809 7984.5)">
+    <rect id="Rectangle_1315" data-name="Rectangle 1315" width="147" height="55" rx="10" transform="translate(22809 -7984.5)" fill="#f2af29"/>
+    <g id="Group_1907" data-name="Group 1907">
+      <g id="Group_1902" data-name="Group 1902" transform="translate(22908.668 -7968.282)">
+        <path id="Path_1158" data-name="Path 1158" d="M24.295,47.852A8.395,8.395,0,0,0,8.3,45.12,4.151,4.151,0,0,0,7.032,44.9a4.22,4.22,0,0,0-4.219,4.219,4.161,4.161,0,0,0,.231,1.316A6.075,6.075,0,0,0,6.094,61.779v0H22.969v0a7.026,7.026,0,0,0,1.326-13.927Zm-5.751,5.4H16.875v3.761a.938.938,0,0,1-.938.939H14.062a.939.939,0,0,1-.938-.939V53.249h-1.67c-1.018,0-1.434-.68-.925-1.509l3.545-3.494c.695-.694,1.134-.717,1.851,0l3.545,3.494C19.98,52.57,19.562,53.249,18.544,53.249Z" transform="translate(0 -40.217)" fill="#383838"/>
+      </g>
+      <text id="Browse" transform="translate(22826 -7970.5)" fill="#383838" font-size="21" font-family="PTSans-Regular, PT Sans"><tspan x="0" y="21">Browse</tspan></text>
+    </g>
+  </g>
+</svg>

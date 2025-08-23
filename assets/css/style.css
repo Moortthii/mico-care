@@ -312,3 +312,10 @@ div#navbarScroll {
 .rounded-5 {
   border-radius: .5rem !important;  /* Bootstrap default */
 }
+
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}

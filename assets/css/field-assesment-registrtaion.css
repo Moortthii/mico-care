@@ -1,11 +1,11 @@
-.banner-mdrt {
+.banner-field-assesment {
     width: 100%;
     margin-top: -160px;
         position: relative;
          z-index: -1;
 }
 
-.banner-mdrt::before  {
+.banner-field-assesment::before  {
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
@@ -17,11 +17,11 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 
 
 
-.mdrt {
- padding: 0px 20px;
+.field-assesment-registrtaion {
+ padding: 0px 20px 40px;
 }
 
-.mdrt h1 {
+.field-assesment-registrtaion h1 {
     font-size: 60px;
     text-align: center;
     font-family: "PT Serif", serif;
@@ -30,7 +30,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 }
 
 
-.mdrt h2 {
+.field-assesment-registrtaion h2 {
     font-size: 60px;
     text-align: left;
     font-family: "PT Serif", serif;
@@ -40,7 +40,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin-top: 0;
 }
 
-.mdrt h3 {
+.field-assesment-registrtaion h3 {
     font-size: 60px;
     text-align: center;
     font-family: "PT Serif", serif;
@@ -48,7 +48,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin: 30px auto;
 }
 
-.mdrt h5 {
+.field-assesment-registrtaion h5 {
     font-size: 60px;
     text-align: left;
     font-family: "PT Sans", sans-serif;
@@ -56,7 +56,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin: 30px auto;
 }
 
-.mdrt h4 {
+.field-assesment-registrtaion h4 {
     background: #F2AF29;
     background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
     text-decoration: none;
@@ -70,28 +70,28 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     font-weight: 700;
     padding: 10px 0px;
     display: block;
-    width: 340px;
+    width: 480px;
     margin: auto;
 
 }
 
-.mdrt p {
-       font-size: 25px;
+.field-assesment-registrtaion p {
+       font-size: 23px;
        line-height: 1.6;
        font-weight: 400;
-       padding: 0px 10px;
+       padding: 0px 0px;
        font-weight: normal;
       font-family: "PT Sans", sans-serif;
 }
 
-.mdrt ul li {
+.field-assesment-registrtaion ul li {
     font-size: 25px;
     line-height: 1.6;
     margin-bottom: 15px;
     color: #000;
 }
 
-.mdrt ul li::marker {
+.field-assesment-registrtaion ul li::marker {
     color: #F2AF29;              /* bullet color */
     font-size: 25px;         /* bullet size */
   } 
@@ -110,23 +110,23 @@ ul.student-achievement-list li::marker {
       font-size: 1.5rem; /* optional - make bigger */
     }
 
-   ul.mdrt-registration-list li{
+   ul.field-assesment-registrtaion-registration-list li{
     margin-bottom: 15px;
     font-size: 1.5rem; /* optional - make bigger */
    } 
-ul.mdrt-registration-list li::marker {
+ul.field-assesment-registrtaion-registration-list li::marker {
       color: gold;   /* change to any color */
       font-size: 1.5rem; /* optional - make bigger */
     }
 
     
 
-.mdrt .event-img {
+.field-assesment-registrtaion .event-img {
   position: relative;
   display: inline-block;
 }
 
-.mdrt .event-img::before {
+.field-assesment-registrtaion .event-img::before {
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
@@ -136,7 +136,7 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
   border-radius: 10px; /* optional if you need rounded corners */
 }
 
-.mdrt .event-img img {
+.field-assesment-registrtaion .event-img img {
   width: 100%;
   display: block;
   position: relative;
@@ -190,7 +190,7 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
       color: #333;
     }
 
-    .upcoming-training .mdrt-title{
+    .upcoming-training .field-assesment-registrtaion-title{
       font-size: 3rem;
     }
 
@@ -312,10 +312,10 @@ button.btn.close {
 
 
 
-.mdrt #assessments-table{
+.field-assesment-registrtaion #assessments-table{
     margin-top: 20px;
 }
-.mdrt #assessments-table tr th{
+.field-assesment-registrtaion #assessments-table tr th{
     background:#FDE005;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
@@ -325,13 +325,13 @@ button.btn.close {
     border:1px solid #fff;
     padding: 15px 20px;
 }
-.mdrt #assessments-table tr th:first-child{
+.field-assesment-registrtaion #assessments-table tr th:first-child{
     border-radius: 8px 0 0 0;
 }
-.mdrt #assessments-table tr th:last-child{
+.field-assesment-registrtaion #assessments-table tr th:last-child{
     border-radius: 0 8px 0 0;
 }
-.mdrt #assessments-table tr td{
+.field-assesment-registrtaion #assessments-table tr td{
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -339,16 +339,16 @@ button.btn.close {
      padding: 20px 20px;
 }
 
-.mdrt .table-bordered   {
+.field-assesment-registrtaion .table-bordered   {
   border-color: #FDE005;
 }
 
-.mdrt .form-floating>.form-control-plaintext~label, .mdrt .form-floating>.form-control:focus~label, .mdrt .form-floating>.form-control:not(:placeholder-shown)~label, .mdrt .form-floating>.form-select~label {
+.field-assesment-registrtaion .form-floating>.form-control-plaintext~label, .field-assesment-registrtaion .form-floating>.form-control:focus~label, .field-assesment-registrtaion .form-floating>.form-control:not(:placeholder-shown)~label, .field-assesment-registrtaion .form-floating>.form-select~label {
     color: rgba(var(--bs-body-color-rgb),.65);
     transform: scale(.70) translateY(-2.0rem) translateX(.65rem);
 }
 
-.form-floating>.form-select .mdrt .form-floating>.form-control-plaintext:focus, .mdrt .form-floating>.form-control-plaintext:not(:placeholder-shown), .mdrt .form-floating>.form-control:focus, .mdrt .form-floating>.form-control:not(:placeholder-shown) {
+.form-floating>.form-select .field-assesment-registrtaion .form-floating>.form-control-plaintext:focus, .field-assesment-registrtaion .form-floating>.form-control-plaintext:not(:placeholder-shown), .field-assesment-registrtaion .form-floating>.form-control:focus, .field-assesment-registrtaion .form-floating>.form-control:not(:placeholder-shown) {
     padding-top: 0.625rem;
     padding-bottom: .625rem;
 }
@@ -358,7 +358,7 @@ button.btn.close {
     padding-bottom: .625rem;
 }
 
-.mdrt .form-floating>label {
+.field-assesment-registrtaion .form-floating>label {
     position: absolute;
     top: 0;
     left: 0;
@@ -377,20 +377,28 @@ button.btn.close {
     color: #87867E;
 }
 
-.mdrt .form-check-input[type=radio] {
+.field-assesment-registrtaion .form-check {
+    margin-bottom: 30px;
+}
+
+.field-assesment-registrtaion .form-floating textarea {
+    min-height: 100px;
+}
+
+.field-assesment-registrtaion .form-check-input[type=radio] {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    border: solid 1px #616055;
-    margin-top: 13px;
+    border: solid 1px #000;
+    margin-top: 15px;
 }
 
-.mdrt label.form-check-label {
-    font-size: 25px;
+.field-assesment-registrtaion label.form-check-label {
+    font-size: 23px;
     color: #000;
 }
 
-.mdrt label.form-label.d-block.pb-3 {
+.field-assesment-registrtaion label.form-label.d-block.pb-3, label.form-label.d-block {
     font-weight: 600;
 }
 
@@ -406,7 +414,7 @@ button.btn.close {
     color: var(--bs-secondary-color);
 }
 
-.mdrt .contactfrm-row .contact-submit-btn{
+.field-assesment-registrtaion .contactfrm-row .contact-submit-btn{
     font-size: 20px;
     font-weight: 700;
     font-family: "PT Sans", sans-serif;
