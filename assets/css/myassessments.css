@@ -80,3 +80,11 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 .clear-fix{
     clear: both;
 }
+
+.header .navbar-nav .active {
+    font-weight: 700; 
+     position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    top: 0px;
+}

@@ -290,3 +290,22 @@ button.btn.close {
 .modal {
     --bs-modal-width:700px;
 }
+
+.login-bg {
+  background: #F2AF29;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.login-bg .login {
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+    margin: auto;
+}
