@@ -1,3 +1,20 @@
+.banner-assesment {
+    width: 100%;
+    margin-top: -160px;
+        position: relative;
+         z-index: -1;
+}
+
+.banner-assesment::before  {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  background: #FEEE0E;
+background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 10, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
 .assesment-workflow h4 {
     background: #F2AF29;
     background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
@@ -18,10 +35,20 @@
 }
 
 .assesment-workflow img {
-    width: 94%;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+ border-radius: 15px;
 }
 
-.content-section p{
-    font-size: 1.5rem;
-}
+ 
 
+.assesment-workflow p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 0px;
+       font-weight: normal;
+      font-family: "PT Sans", sans-serif;
+}
+.assesment-workflow {
+    padding: 0px 20px;
+}
