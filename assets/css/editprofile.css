@@ -1,0 +1,140 @@
+#profile-container{
+    background: #fff;
+    box-shadow: 0 0 25px 5px rgba(90, 116, 148, 0.25);
+    border-radius: 20px;
+    width: 95%;
+    margin:-50px auto 40px;
+    padding-bottom: 40px;
+}
+.profile-image-div{
+    position: relative;
+}
+.change-password-btn{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: #383838;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding:15px;
+}
+.profile-img{
+    margin: -86px 0 0 44%;
+    width: 15%;
+}
+.upload-link{
+    position: absolute;
+    right: 41%;
+    bottom: 5px;
+    background: #F2AF29;
+    border-radius: 10px;
+    padding: 2px 3px 12px 3px;
+    text-align: center;
+}
+.upload-img{
+    width: 78%;
+}
+.profie-name{
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0 40px 50px;
+}
+.profile-details-div{
+    width: 100%;
+}
+.profile-details-div label{
+    color: #87867E;
+    font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+}
+.profile-details-div .col-md-4, .profile-details-div .col-md-5, .profile-details-div .col-md-3{
+    float: left;
+}
+.edit-profile-div{
+    clear: both;
+    text-align: center;
+    padding-top: 30px;
+}
+.edit-profile-btn{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: #F2AF29;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;    
+    padding:15px;
+    margin:20px auto 20px;
+}
+.clear-fix{
+    clear: both;
+}
+div#uploadProfile {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 700px;
+    width: 70%;
+}
+.popupHeading{    
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    line-height: 35px;  
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    padding-bottom: 20px;
+}
+.popupImgupload{
+    border: 4px dashed #b7b6b6;
+    width: 90%;
+    margin: 80px auto 30px;
+}
+.popup-upload-icon{
+    padding: 30px;
+}
+.dropnoteTxt{
+    font-size: 20px;
+    line-height: 25px;  
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    color: #000;
+    padding:20px 0 10px;
+}
+.upload-support-text{
+    font-size: 14px;
+    line-height: 25px;  
+    font-weight: 700;
+    font-family: "PT Serif", serif;
+    color: #87867E;
+    padding:0 0 30px 0;
+    
+}
+.frmTxtbox{
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 5px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    padding-left: 8px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #616055;
+}
