@@ -55,12 +55,12 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
          font-family: "PT Sans", sans-serif;
 }
 
-.upcoming-events {
+.events {
     margin: 20px 20px;
 }
 
 
-.upcoming-events h4 {
+.events h4 {
     background: #F2AF29;
     background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
     text-decoration: none;
@@ -92,12 +92,12 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 
  
 
-.upcoming-events .event-img {
+.events .event-img {
   position: relative;
   display: inline-block;
 }
 
-.upcoming-events .event-img::before {
+.events .event-img::before {
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
@@ -107,7 +107,7 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
   border-radius: 10px; /* optional if you need rounded corners */
 }
 
-.upcoming-events .event-img img {
+.events .event-img img {
   width: 100%;
   display: block;
   position: relative;
@@ -152,115 +152,7 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
     margin-right: 10px;
     margin-bottom: 10px;
 }
-
-.watch-video {
- margin: 10px auto;
- padding: 0px 20px;
- position: relative;
-}
-
- 
-
-.watch-video h4 {
-    background: #F2AF29;
-    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
-    text-decoration: none;
-    color: #000;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 0px 30px;
-    border-radius: 52px;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    padding: 10px 0px;
-    display: block;
-    max-width: 340px;
-
-}
-
-.video-banner {
-    position: relative;
-}
-
-.video-banner {
-    margin: 10px auto 20px;
-}
- 
-.video-banner h5 {
-    text-align: left;
-    font-size: 70px;
-    font-weight: 700;
-    margin: 25px 0 10px;
-    text-align: center;
-}
-
-.video-banner .start-50 {
-    left: 50%!important;
-    width: 100%;
-}
-
-.video-banner  p {
-       font-size: 25px;
-       font-weight: 400;
-}
-
-.event {
- padding: 0px 20px;
-}
-
-.event h4 {
-    background: #F2AF29;
-    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
-    text-decoration: none;
-    color: #000;
-    font-size: 30px;
-    line-height: 1.5;
-    text-align: center;
-    padding: 0px 30px;
-    border-radius: 52px;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    padding: 10px 0px;
-    display: block;
-    max-width: 340px;
-
-}
-.about-section-image {
-
-background: #F2AF29;
-background: linear-gradient(180deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 0) 100%);
-border-radius: 110px 0 110px 0px;
-}
-
-.about-section-image img {
-    border-radius: 110px 0 110px 0px;
-    margin-left: 34px;
-    margin-top: 25px;
-}
-
-.event p {
-       font-size: 25px;
-       line-height: 1.6;
-       font-weight: 400;
-       padding: 0px 10% 30px;
-}
-
-.event ul {
-    margin: 30px 10% 30px;
-}
-
-.event ul li {
-       font-size: 25px;
-       line-height: 1.6;
-       font-weight: 400;
-       margin-bottom: 30px;
-}
-
-.event ul li::marker {
-    color: #F2AF29;       /* Bullet color */
-    font-size: 1.5em; /* Bullet size */
-}
+  
  
 
 .header .navbar-nav .active {
@@ -273,22 +165,22 @@ border-radius: 110px 0 110px 0px;
 
 
 
-.upcoming-events .event-img {
+.events .event-img {
   position: relative;
   display: inline-block;
 }
 
-.upcoming-events .event-img::before {
+.events .event-img::before {
   content: "";
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
  background: #FEEE0E;
-background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 41, 0) 100%);
+background: linear-gradient(150deg, rgba(254, 238, 14, 0.40) 0%, rgba(242, 175, 41, 0) 100%);
   z-index: 1;
   border-radius: 10px; /* optional if you need rounded corners */
 }
 
-.upcoming-events .event-img img {
+.events .event-img img {
   width: 100%;
   display: block;
   position: relative;
@@ -296,6 +188,64 @@ background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     border-radius: 10px;
 }
+
+.event-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.event-img img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover zoom effect */
+.event-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Overlay */
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(87,87,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+/* Show overlay on hover */
+.event-img:hover .hover-overlay {
+  opacity: 1;
+    background: rgba(87,87,21,0.6);
+  visibility: visible;
+}
+
+/* View More button */
+.view-more {
+  color: #fff;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.view-more:hover {
+  background:none;
+}
+
 
 
 .event-content {

@@ -1,0 +1,135 @@
+ .banner-event-details {
+    width: 100%;
+    margin-top: -160px;
+        position: relative;
+         z-index: -1;
+}
+
+.banner-event-details::before  {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  background: #FEEE0E;
+background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 10, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.events-details {
+ padding: 0px 20px;
+}
+
+.events-details h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin: 30px auto 50px;
+}
+
+ 
+
+.events-details p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 0px;
+       font-weight: normal;
+         font-family: "PT Sans", sans-serif;
+}
+
+.events-details {
+    margin: 20px 20px;
+}
+
+.events-details .events-details-img {
+  position: relative;
+  display: inline-block;
+}
+
+.events-details .events-details-img::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+ background: #FEEE0E;
+background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 41, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+ 
+
+.event-content {
+ margin: 10px auto;
+ padding: 0px 0px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 25px 0 50px;
+    font-family: "PT Serif", serif;
+}
+
+.event-content .details {
+    font-size: 25px;
+    color: #616055;
+    font-weight: 400;
+}
+.event-content .details .date p {
+       font-size: 25px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 25px;
+       font-weight: 700;
+}
+
+.event-content .details .location p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 30px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.event-content .details .date , .event-content .details .location , .event-content .details .time  {
+ margin: 20px 0px;
+}
+ 
+   
+ 
+
+.header .navbar-nav .active {
+    font-weight: 700; 
+     position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    top: 0px;
+}
+
+
+ 
+
+ 
+ 
+.event-content .details .contact-submit-btn{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: #F2AF29;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+    padding:15px;
+    width: 200px;
+    margin: 30px 0 10px;
+    display: block;
+    border: 0px;
+}
