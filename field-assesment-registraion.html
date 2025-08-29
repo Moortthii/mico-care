@@ -154,11 +154,21 @@
     </div>
     <div class="col-md-6">
          <div class="form-floating mb-3">
-            <label for="formFileSm" class="form-label">Upload File (Max 5MB)</label>
-            <input class="form-control" type="text" id="formFileSm" required>
-            <div class="form-text">Upload List of Students (csv xls, xlsx only. Max size 5MB).</div>
-            <label for="receiptImage">Receipt Image<span class="text-danger">*</span></label>
-            <img src="assets/images/icons/mdrt/upload.svg" alt=" ">
+             <!-- <label for="formFileSm" class="form-label">Upload File (Max 5MB)</label> -->
+<input class="form-control" type="text" id="formFileSm" required>
+<div class="form-text">Upload List of Students (csv xls, xlsx only. Max size 5MB).</div>
+<label for="receiptImage">Receipt Image<span class="text-danger">*</span></label>
+<img src="assets/images/icons/mdrt/upload.svg" alt=" ">
+
+<!-- Hidden file input (added) -->
+<input type="file" id="hiddenFileInput" accept=".csv,.xls,.xlsx" style="display:none;">
+
+<!-- 
+            <div class="mb-3 d-flex align-items-center gap-2">
+  <label for="customFile" class="btn btn-primary mb-0">Choose File</label>
+  <input type="file" class="d-none" id="customFile" onchange="document.getElementById('file-name').textContent = this.files[0]?.name">
+  <span id="file-name" class="text-muted">No file chosen</span>
+</div> -->
         </div>      
     </div>
      <div class="col-md-6">

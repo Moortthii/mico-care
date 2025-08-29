@@ -1,0 +1,335 @@
+ .banner-event {
+    width: 100%;
+    margin-top: -160px;
+        position: relative;
+         z-index: -1;
+}
+
+.banner-event::before  {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+  background: #FEEE0E;
+background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 10, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.event {
+ padding: 0px 20px;
+}
+
+.event h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.event h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+    margin: auto;
+
+}
+
+.event p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 10px;
+       font-weight: normal;
+         font-family: "PT Sans", sans-serif;
+}
+
+.upcoming-events {
+    margin: 20px 20px;
+}
+
+
+.upcoming-events h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+
+}
+
+.view-more {
+    text-align: right;
+    font-size: 25px;
+    color: #000;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: solid 4px #F2AF29;
+}
+
+ 
+
+.upcoming-events .event-img {
+  position: relative;
+  display: inline-block;
+}
+
+.upcoming-events .event-img::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+ background: #FEEE0E;
+background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 41, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.upcoming-events .event-img img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+
+.event-content {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+.event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 20px;
+}
+
+.event-content .details .location p {
+    font-size: 20px;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.watch-video {
+ margin: 10px auto;
+ padding: 0px 20px;
+ position: relative;
+}
+
+ 
+
+.watch-video h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+
+}
+
+.video-banner {
+    position: relative;
+}
+
+.video-banner {
+    margin: 10px auto 20px;
+}
+ 
+.video-banner h5 {
+    text-align: left;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+
+.video-banner .start-50 {
+    left: 50%!important;
+    width: 100%;
+}
+
+.video-banner  p {
+       font-size: 25px;
+       font-weight: 400;
+}
+
+.event {
+ padding: 0px 20px;
+}
+
+.event h4 {
+    background: #F2AF29;
+    background: linear-gradient(90deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 1) 100%);
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 52px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    padding: 10px 0px;
+    display: block;
+    max-width: 340px;
+
+}
+.about-section-image {
+
+background: #F2AF29;
+background: linear-gradient(180deg, rgba(242, 175, 41, 1) 0%, rgba(255, 250, 170, 0) 100%);
+border-radius: 110px 0 110px 0px;
+}
+
+.about-section-image img {
+    border-radius: 110px 0 110px 0px;
+    margin-left: 34px;
+    margin-top: 25px;
+}
+
+.event p {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       padding: 0px 10% 30px;
+}
+
+.event ul {
+    margin: 30px 10% 30px;
+}
+
+.event ul li {
+       font-size: 25px;
+       line-height: 1.6;
+       font-weight: 400;
+       margin-bottom: 30px;
+}
+
+.event ul li::marker {
+    color: #F2AF29;       /* Bullet color */
+    font-size: 1.5em; /* Bullet size */
+}
+ 
+
+.header .navbar-nav .active {
+    font-weight: 700; 
+     position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    top: 0px;
+}
+
+
+
+.upcoming-events .event-img {
+  position: relative;
+  display: inline-block;
+}
+
+.upcoming-events .event-img::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
+ background: #FEEE0E;
+background: linear-gradient(150deg, rgba(254, 238, 14, 0.20) 0%, rgba(242, 175, 41, 0) 100%);
+  z-index: 1;
+  border-radius: 10px; /* optional if you need rounded corners */
+}
+
+.upcoming-events .event-img img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+
+.event-content {
+ margin: 10px auto;
+ padding: 0px 10px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+.event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 20px;
+}
+
+.event-content .details .location p {
+    font-size: 20px;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
