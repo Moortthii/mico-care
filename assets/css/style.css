@@ -64,18 +64,7 @@ body {
     overflow-x: hidden;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-    justify-content: center; /* Center horizontally */
-}
-
-.navbar-expand-lg .navbar-collapse .navbar-nav {
-    display: flex;
-    justify-content: center; /* Center nav items inside */
-    width: 100%; /* Make them span full space for centering */
-}
-
+ 
 
 .navbar-brand {
     max-width: 400px;
@@ -318,4 +307,12 @@ a {
     color: #000;
     text-decoration: none;
     font-weight: 600;
+}
+
+
+/* Make the offcanvas fill the viewport height on mobile */
+@media (max-width: 991.98px) {
+  #mobileMenu.offcanvas-top {
+    height: 100vh;
+  }
 }

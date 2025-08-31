@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>The Mico University College Child Assessment and Research in Education (CARE) Centre</title>
 
   <!-- Bootstrap CSS -->
@@ -19,76 +20,99 @@
 <body>
   
   <div class="header" id="mainHeader">
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
+    <!-- Logo -->
     <a class="navbar-brand" href="#">
-        <img src="assets/images/header/mcare-logo.png" alt="mcare logo">
+      <img src="assets/images/header/mcare-logo.png" alt="mcare logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Mobile toggle button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center " id="navbarScroll">
+
+    <!-- Collapsible menu -->
+    <div class="collapse navbar-collapse ms-auto" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item dropdown">           
-          <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+
+        <!-- About Us -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">About Us</a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
             <li><a class="dropdown-item" href="#">Services</a></li>
-            <li><a class="dropdown-item" href="#">Clientele</a></li>            
-            <li><a class="dropdown-item" href="#">Careers </a></li>
+            <li><a class="dropdown-item" href="#">Clientele</a></li>
+            <li><a class="dropdown-item" href="#">Careers</a></li>
           </ul>
         </li>
+
+        <!-- Assessments -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Assessments</a>
-           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="assessmentsDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Assessments</a>
+          <ul class="dropdown-menu" aria-labelledby="assessmentsDropdown">
             <li><a class="dropdown-item" href="#">Field assessments</a></li>
-            <li><a class="dropdown-item" href="#">Psychoeducational Assessment</a></li>            
+            <li><a class="dropdown-item" href="#">Psychoeducational Assessment</a></li>
             <li><a class="dropdown-item" href="#">Speech and Language Assessment</a></li>
           </ul>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#">Interventions</a>
         </li>
+
+        <!-- MDRT-II -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            MDRT-II
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="mdrtDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">MDRT-II</a>
+          <ul class="dropdown-menu" aria-labelledby="mdrtDropdown">
             <li><a class="dropdown-item" href="#">Registration</a></li>
             <li><a class="dropdown-item" href="#">Calendar of events</a></li>
           </ul>
         </li>
+
+        <!-- Events -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
-           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Project and partnerships</a></li>
-                <li><a class="dropdown-item" href="conference.html">Conference</a></li>
-                <li><a class="dropdown-item" href="#">Workshops</a></li>
+          <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Events</a>
+          <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+            <li><a class="dropdown-item" href="#">Project and partnerships</a></li>
+            <li><a class="dropdown-item" href="conference.html">Conference</a></li>
+            <li><a class="dropdown-item" href="#">Workshops</a></li>
           </ul>
         </li>
+
+        <!-- Publications -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publications</a>
-           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Resource </a></li>
-                <li><a class="dropdown-item" href="#">Research</a></li>
-                <li><a class="dropdown-item" href="#">News release</a></li>
+          <a class="nav-link dropdown-toggle" href="#" id="publicationsDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">Publications</a>
+          <ul class="dropdown-menu" aria-labelledby="publicationsDropdown">
+            <li><a class="dropdown-item" href="#">Resource</a></li>
+            <li><a class="dropdown-item" href="#">Research</a></li>
+            <li><a class="dropdown-item" href="#">News release</a></li>
           </ul>
         </li>
+
+        <!-- Profile -->
         <li class="nav-item dropdown login-selected">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/images/header/profile.svg" > Monica</a>
-           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">My profile </a></li>
-                <li><a class="dropdown-item" href="#">Contact us</a></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
+          <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="assets/images/header/profile.svg"> Monica
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+            <li><a class="dropdown-item" href="#">My profile</a></li>
+            <li><a class="dropdown-item" href="#">Contact us</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
           </ul>
         </li>
-        
+
       </ul>
-      <!-- <div class="d-flex">        
-        <button class="btn login">Login</button>
-      </div> -->
     </div>
   </div>
 </nav>
@@ -478,7 +502,7 @@
             <div class="col-md-4">
                 <p>At Mico CARE Centre, we provide quality education and real-world skills.
                 Our programs and experts support your growth at every step.</p>
-                <img src="assets/images/icons/footer/facebook.svg" alt=" "> <img src="assets/images/icons/footer/insta.svg" alt=" ">
+             <a href="#"><img src="assets/images/icons/footer/facebook.svg" alt=" "></a>    <img src="assets/images/icons/footer/insta.svg" alt=" "> <img src="assets/images/icons/footer/youtube.svg" alt=" ">
               </div>
             <div class="col-md-4">
                 <h4>Contact Us</h4>
@@ -487,7 +511,7 @@
                 <p><img src="assets/images/icons/footer/sms.svg" alt=" ">care_centre@micocare.org</p>
             </div>
             <div class="col-md-4">
-                 <h4>Quick links</h4>
+                <h4>Quick links</h4>
                 <p>JCPD - Jamaica Council for Persons with Disabilities</p>
                 <p>JASA - Jamaica Autism Support Association</p>
                 <p>MOE - Ministry Of Education</p>
