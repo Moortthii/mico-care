@@ -65,7 +65,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     margin: 40px 0 30px;
 }
 #resources-container{
-    padding: 0 4%;
+    padding: 0 2%;
 }
 .filter-title{
     font-size: 40px;
@@ -79,7 +79,7 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
     width: 50%;
     float: right;    
     position: relative;
-    padding-right: 30px;
+    padding-right:0px;
 }
 .searchfilter-input{
     border:1px solid #616055;
@@ -107,13 +107,16 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 #resource-img-container img{
     width: 32%;
     float: left;
-    margin-right: 18px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
-#resource-img-container img :nth-child(4) {
+#resource-img-container img:nth-child(3n) {
     margin-right: 0;
 }
 .resource-top-filter{
     margin-top: 30px;
+    display: block;
+    overflow: hidden;
 }
 .research-filter-title{
     background: #F2AF29;
@@ -259,4 +262,56 @@ background: linear-gradient(45deg, rgba(254, 238, 14, 0.35) 0%, rgba(254, 237, 1
 #research-img-container .research-author-div img{
     width: 5%;
     margin-right: 10px;
+}
+
+.events {
+    margin: 20px auto;
+}
+
+
+.events .event-img {
+    position: relative;
+    display: inline-block;
+}
+.events .event-img img {
+    width: 100%;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+.event-content {
+ margin: 5px auto;
+ padding: 0px 0px;
+}
+
+.event-content h5 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.event-content .details {
+    font-size: 20px;
+    color: #616055;
+    font-weight: 400;
+}
+.event-content .details .date p {
+       font-size: 20px;
+       font-weight: 700;
+}
+.event-content .details .time p {
+       font-size: 20px;
+}
+
+.event-content .details .location p {
+    font-size: 20px;
+}
+
+.event-content .details .date p img, .event-content .details .location p img, .event-content .details .time p img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }

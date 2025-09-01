@@ -191,7 +191,7 @@ div#navbarScroll {
     max-width: 250px;
     height: 65px;
     margin-top: -20px;
-    padding: 5px 5px;
+    padding: 5px 10px;
 }
 
 .header .navbar-nav .login-selected  .nav-link {
