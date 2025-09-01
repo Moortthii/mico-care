@@ -81,6 +81,8 @@
 
 .upcoming-events {
     margin: 20px 20px;
+    position: relative;
+    z-index: -9;
 }
 
 

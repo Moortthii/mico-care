@@ -199,6 +199,11 @@ div#navbarScroll {
     color: #000;
     margin: 0px 0px;
     padding: 0px;
+    display: inline-block;   /* or block/flex item */
+    max-width: 150px;        /* set a width */
+    white-space: nowrap;     /* keep text in one line */
+    overflow: hidden;        /* hide extra text */
+    text-overflow: ellipsis; /* show "..." */
 }
 
 .header .navbar-nav .login-selected img {
