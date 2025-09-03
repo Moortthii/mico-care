@@ -58,6 +58,18 @@ window.addEventListener("load", toggleHeaderFixed);
     }
   });
 });
+
+ const togglePassword = document.querySelector("#togglePassword");
+  const password = document.querySelector("#password");
+
+  togglePassword.addEventListener("click", function () {
+    const type = password.getAttribute("type") === "password" ? "text" : "password";
+    password.setAttribute("type", type);
+
+    // swap icons
+    this.querySelector("i").classList.toggle("fa-eye");
+    this.querySelector("i").classList.toggle("fas fa-eye-slash");
+  });
  
 
 

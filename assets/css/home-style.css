@@ -489,3 +489,11 @@ border-radius: 110px 0 110px 0px;
     margin-bottom: 10px;
 }
 
+
+.partnership .carousel-indicators button {
+    width: 15px;
+    height: auto;
+    border-radius: 50%;
+    background: #000;
+ 
+}
