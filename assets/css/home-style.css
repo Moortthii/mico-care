@@ -490,10 +490,32 @@ border-radius: 110px 0 110px 0px;
 }
 
 
-.partnership .carousel-indicators button {
+
+/* .partnership .carousel-indicators button {
     width: 15px;
     height: auto;
     border-radius: 50%;
-    background: #000;
+    background: #F2AF29;
  
+}
+
+.partnership .carousel-indicators button :focus:not(:focus-visible) {
+    outline: 0;
+    opacity: 0.2;
+    background: #000 !important;
+} */
+
+
+/* Normal (inactive) indicators */
+.carousel-indicators [data-bs-target] {
+  background-color: #F2AF29; /* gray or any color */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+/* Active indicator */
+.carousel-indicators .active {
+  background-color: #dcdcdc; /* orange or any color */
 }
